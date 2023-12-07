@@ -1,0 +1,38 @@
+.header {
+  background: #f7f7f7;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.nav {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 54px;
+  font-weight: 500;
+}
+
+.menu a {
+  padding: 6px 16px;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: #d59490;
+  font-weight: bold;
+}
+
+.menu a:focus {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 7px;
+  border-color: #d59490;
+}

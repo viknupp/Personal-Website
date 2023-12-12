@@ -11,6 +11,21 @@ body {
   font-family: var(--type-first);
 }
 
+h1 {
+  color: #c0170c;
+  font-size: 45px;
+  line-height: 48px;
+  font-weight: bold;
+  font-family: var(--type-first);
+}
+
+p {
+  color: #707070;
+  font-family: var(--type-second);
+  font-size: 16px;
+  line-height: 24px;
+}
+
 h1,
 h2,
 h3,

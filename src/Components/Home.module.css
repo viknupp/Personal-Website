@@ -1,21 +1,17 @@
-.grid {
-  display: grid;
-  grid-template-columns: 1fr, 1fr;
-  padding-left: 140px;
-  height: 820px;
-  background: #f7f7f7;
-}
-
 .intro {
-  padding-top: 56px;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-.title {
-  grid-column: 1 / -1;
+  padding-left: 140px;
+  padding-top: 32px;
+  height: 560px;
+  background: #f7f7f7;
 }
 
 .paragraph {
   padding-top: 56px;
+  max-width: 50ch;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  padding-top: 32px;
 }

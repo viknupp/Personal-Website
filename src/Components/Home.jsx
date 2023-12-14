@@ -26,6 +26,10 @@ const Home = () => {
             <img src={LinkedIn} alt="linkedin" />
           </Link>
         </div>
+        <div className={styles.projects}>
+          <h1 className={styles.title}>projects.</h1>
+          <h3>as architect.</h3>
+        </div>
       </div>
     </div>
   );

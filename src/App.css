@@ -19,6 +19,14 @@ h1 {
   font-family: var(--type-first);
 }
 
+h3 {
+  color: #707070;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: var(--type-first);
+  font-weight: normal;
+}
+
 p {
   color: #707070;
   font-family: var(--type-second);

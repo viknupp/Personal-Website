@@ -15,3 +15,25 @@
   gap: 20px;
   padding-top: 32px;
 }
+
+.projects {
+  height: 800px;
+}
+
+.title {
+  padding-top: 149px;
+}
+
+h3 {
+  position: relative;
+}
+
+h3::before {
+  content: '';
+  width: 960px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  background-color: #707070;
+  top: 15px;
+}

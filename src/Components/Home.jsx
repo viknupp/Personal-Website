@@ -4,7 +4,8 @@ import GitHub from '../Assets/GitHub.svg';
 import LinkedIn from '../Assets/LinkedIn.svg';
 import { Link } from 'react-router-dom';
 import Work from './Work';
-
+import Teste from '../Assets/Teste.png';
+import Teste2 from '../Assets/Teste2.png';
 const Home = () => {
   return (
     <div className={styles.intro}>
@@ -28,7 +29,24 @@ const Home = () => {
         </div>
         <div className={styles.projects}>
           <h1 className={styles.title}>projects.</h1>
-          <h3>as architect.</h3>
+          <div className={styles.architect}>
+            <h3>as architect.</h3>
+            <div className={styles.archImages}>
+              <img src={Teste} alt="" />
+              <img src={Teste} alt="" />
+              <img src={Teste} alt="" />
+              <img src={Teste} alt="" />
+            </div>
+          </div>
+          <div>
+            <h3>as developer and designer.</h3>
+            <div className={styles.devImages}>
+              <img src={Teste2} alt="" />
+              <img src={Teste2} alt="" />
+              <img src={Teste2} alt="" />
+              <img src={Teste2} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

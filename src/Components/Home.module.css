@@ -14,14 +14,12 @@
   display: flex;
   gap: 20px;
   padding-top: 32px;
-}
-
-.projects {
-  height: 800px;
+  align-items: center;
 }
 
 .title {
   padding-top: 149px;
+  padding-bottom: 62px;
 }
 
 h3 {
@@ -36,4 +34,32 @@ h3::before {
   position: absolute;
   background-color: #707070;
   top: 15px;
+  margin-top: 2px;
+}
+
+.archImages {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.archImages img {
+  height: 392px;
+  width: 185px;
+}
+
+.devImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 32px;
+  margin-top: 100px;
+}
+
+.devImages img {
+  height: 210px;
+  width: 373px;
 }

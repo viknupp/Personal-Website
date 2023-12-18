@@ -27,7 +27,7 @@ const Home = () => {
             <img src={LinkedIn} alt="linkedin" />
           </Link>
         </div>
-        <div className={styles.projects}>
+        <section className={styles.projects}>
           <h1 className={styles.title}>projects.</h1>
           <div className={styles.architect}>
             <h3>as architect.</h3>
@@ -47,7 +47,7 @@ const Home = () => {
               <img src={Teste2} alt="" />
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );

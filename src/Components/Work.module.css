@@ -1,6 +1,7 @@
-.background {
+.sectionProject {
   height: 94px;
   background: #f7f7f7;
+  padding-left: 140px;
 }
 
 .title {
@@ -14,7 +15,7 @@ h3 {
 
 h3::before {
   content: '';
-  width: 860px;
+  width: 880px;
   height: 1px;
   display: block;
   position: absolute;
@@ -26,7 +27,7 @@ h3::before {
 .archImages {
   display: flex;
   max-width: 860px;
-  gap: 28px;
+  gap: 24px;
   margin-top: 100px;
   margin-bottom: 100px;
   justify-content: center;
@@ -42,7 +43,7 @@ h3::before {
   max-width: 860px;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 28px;
+  gap: 24px;
   margin-top: 100px;
 }
 

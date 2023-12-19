@@ -8,13 +8,11 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
         <div className={styles.menu}>
+          <Link to="/">home</Link>
           <Link to="/about">about</Link>
           <Link to="/work">work</Link>
           <Link to="/contact">contact</Link>
         </div>
-        <Link to="/">
-          <img src={Logo} alt="logo" />
-        </Link>
       </nav>
     </header>
   );

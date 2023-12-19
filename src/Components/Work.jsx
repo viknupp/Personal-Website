@@ -5,7 +5,7 @@ import Teste2 from '../Assets/Teste2.png';
 
 const Work = () => {
   return (
-    <section className={styles.background}>
+    <section className={styles.sectionProject}>
       <div className={`container ${styles.projects}`}>
         <h1 className={styles.title}>projects.</h1>
         <div className={styles.architect}>

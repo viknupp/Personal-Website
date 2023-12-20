@@ -1,8 +1,11 @@
-.section {
-  padding-left: 140px;
-  padding-top: 32px;
+.background {
   height: 600px;
   background: #f7f7f7;
+}
+
+.section {
+  padding-left: 94px;
+  padding-top: 32px;
 }
 
 .paragraph {

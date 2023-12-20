@@ -3,12 +3,11 @@ import styles from './Home.module.css';
 import GitHub from '../Assets/GitHub.svg';
 import LinkedIn from '../Assets/LinkedIn.svg';
 import { Link } from 'react-router-dom';
-import Work from './Work';
 
 const Home = () => {
   return (
-    <div className={styles.section}>
-      <div className="container">
+    <div className={styles.background}>
+      <div className={`container ${styles.section}`}>
         <div className={styles.intro}>
           <h1>architect.</h1> <h1>front-end developer.</h1>
           <p className={styles.paragraph}>

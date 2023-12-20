@@ -1,17 +1,16 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { Link } from 'react-router-dom';
-import Logo from '../Assets/Logo.svg';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
         <div className={styles.menu}>
-          <Link to="/">home</Link>
-          <Link to="/about">about</Link>
-          <Link to="/work">work</Link>
-          <Link to="/contact">contact</Link>
+          <NavLink to="/">home</NavLink>
+          <NavLink to="/about">about</NavLink>
+          <NavLink to="/work">work</NavLink>
+          <NavLink to="/contact">contact</NavLink>
         </div>
       </nav>
     </header>

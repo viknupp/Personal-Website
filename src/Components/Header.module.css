@@ -30,9 +30,11 @@
   font-weight: bold;
 }
 
-.menu a:focus {
+.menu a:global(.active) {
   border-style: solid;
   border-width: thin;
   border-radius: 7px;
   border-color: #d59490;
+  color: #d59490;
+  font-weight: bold;
 }

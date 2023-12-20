@@ -1,0 +1,35 @@
+.sectionContact {
+  position: relative;
+}
+
+.sectionContact::before {
+  content: '';
+  height: 94px;
+  width: 100%;
+  background-color: #f7f7f7;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.contact {
+  padding-left: 94px;
+}
+
+.title {
+  padding-top: 60px;
+  padding-bottom: 62px;
+}
+
+.paragraph {
+  padding-top: 24px;
+  max-width: 55ch;
+}
+
+.links {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
